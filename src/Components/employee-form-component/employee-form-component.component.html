@@ -1,0 +1,15 @@
+<form  [formGroup] ="formEmpleado"  (ngsubmit)="onsubmit()">
+    <label>nombre</label>
+    <input type="text" name="nombre"> 
+    <label>apellido</label>
+    <input type="text" name="apellido"> 
+    <label>edad</label>
+    <input type="number" name="edad"> 
+    <label>documento</label>
+    <input type="text" name="documento"> 
+    <label>tipoDocumento</label>
+    <select type="text" name="tipoDocumento">  
+        <option value="cedula"></option>
+        <option value="tarjeta identidad"></option>
+    <button type="submit"></button>
+</form>
